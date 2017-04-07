@@ -1,0 +1,45 @@
+.icon {
+    background-size: auto 12px;
+    height: 12px;
+    padding-left: 18px;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.troll {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/trollface.png');
+}
+
+.troll span.comment * {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #764;
+}
+
+.star {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/star.png');
+}
+
+.star span.comment * {
+    color: #446;
+    font-weight: bold;
+}
+
+.google {
+    /* From https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg */
+    background-image: url('chrome-extension://__MSG_@@extension_id__/g.png');
+}
+
+.apple {
+    /* From https://commons.wikimedia.org/wiki/File:Apple_Logo.svg */
+    background-image: url('chrome-extension://__MSG_@@extension_id__/apple.png');
+}
+
+.facebook {
+    /* From https://commons.wikimedia.org/wiki/File:Facebook_icon.jpg */
+    background-image: url('chrome-extension://__MSG_@@extension_id__/fb.png');
+}
+
+.microsoft {
+    /* From https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg */
+    background-image: url('chrome-extension://__MSG_@@extension_id__/microsoft.png');
+}

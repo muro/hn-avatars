@@ -1,0 +1,38 @@
+{
+  "name": "HackerNews avatars",
+  "version": "1.0.3",
+  "manifest_version": 2,
+  "description": "Avatars for commenters on HackerNews (news.ycombinator.com).",
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/*",
+                  "https://news.ycombinator.com/*"],
+      "css": ["avatars.css"],
+      "js": ["avatars.js"]
+    }
+  ],
+  "permissions": ["contextMenus", "storage",
+                  "http://news.ycombinator.com/*",
+                  "https://news.ycombinator.com/*"],
+  "web_accessible_resources": [
+    "apple.png",
+    "fb.png",
+    "g.png",
+    "microsoft.png",
+    "star.png",
+    "trollface.png",
+    "avatars.css",
+    "icon16.png"
+  ],
+  "background": {
+    "scripts": ["contextmenu.js"]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HackerNews Avatars Options</title>
+    <style type="text/css">
+      label { display: block; }
+      div { margin-bottom: 1em; }
+    </style>
+    <link rel="stylesheet" type="text/css" href="avatars.css">
+  </head>
+
+  <body>
+    <div>Use comma separated list of user ids for each group:</div>
+    <label><span class="icon star">&nbsp;</span><input id="star"></label>
+    <label><span class="icon google">&nbsp;</span><input id="google"></label>
+    <label><span class="icon facebook">&nbsp;</span><input id="facebook"></label>
+    <label><span class="icon microsoft">&nbsp;</span><input id="microsoft"></label>
+    <label><span class="icon apple">&nbsp;</span><input id="apple"></label>
+    <label><span class="icon troll">&nbsp;</span><input id="troll"></label>
+
+    <div id="status"></div>
+    <button id="save">Save</button>
+
+    <div>Copy-pasteable full settings:
+      <textarea>
+        blablabla
+      </textarea>
+    </div>
+
+    <script type="text/javascript" src="options.js"></script>
+  </body>
+</html>
