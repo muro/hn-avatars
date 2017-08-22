@@ -2,7 +2,7 @@ Adds avatars (icons) to comments on news.ycombinator.com.
 Each icon has an associated list of usernames (comma-separated) in the options.
 
 Deployment:
-1. zip the contents of this directory
+1. zip the contents of this directory (on linux: $ zip -r hn-avatars.zip *)
 2. upload to the Chrome Developer Dashboard (https://chrome.google.com/webstore/devconsole/)
 
 Install from https://chrome.google.com/webstore/detail/hackernews-avatars/lcdadbjhilickejdeecfkchjfkcmnhpe
