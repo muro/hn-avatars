@@ -1,8 +1,9 @@
 var avatars = {
   star: '',
-  google: '',
-  facebook: '',
+  amazon: '',
   apple: '',
+  facebook: '',
+  google: '',
   microsoft: '',
   troll: '',
 };

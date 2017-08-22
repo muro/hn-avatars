@@ -6,15 +6,6 @@
     background-repeat: no-repeat;
 }
 
-.troll {
-    background-image: url('chrome-extension://__MSG_@@extension_id__/trollface.png');
-}
-
-.troll span.comment * {
-    font-family: Comic Sans, Comic Sans MS, cursive;
-    color: #764;
-}
-
 .star {
     background-image: url('chrome-extension://__MSG_@@extension_id__/star.png');
 }
@@ -24,9 +15,9 @@
     font-weight: bold;
 }
 
-.google {
-    /* From https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg */
-    background-image: url('chrome-extension://__MSG_@@extension_id__/g.png');
+.amazon {
+    /* From https://commons.wikimedia.org/wiki/File:High_rate.png */
+    background-image: url('chrome-extension://__MSG_@@extension_id__/amazon.png');
 }
 
 .apple {
@@ -39,7 +30,21 @@
     background-image: url('chrome-extension://__MSG_@@extension_id__/fb.png');
 }
 
+.google {
+    /* From https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg */
+    background-image: url('chrome-extension://__MSG_@@extension_id__/g.png');
+}
+
 .microsoft {
     /* From https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg */
     background-image: url('chrome-extension://__MSG_@@extension_id__/microsoft.png');
+}
+
+.troll {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/trollface.png');
+}
+
+.troll span.comment * {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: #764;
 }

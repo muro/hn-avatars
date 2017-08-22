@@ -20,6 +20,7 @@
                   "https://news.ycombinator.com/*"],
   "web_accessible_resources": [
     "apple.png",
+    "amazon.png",
     "fb.png",
     "g.png",
     "microsoft.png",
